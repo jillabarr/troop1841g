@@ -1,0 +1,389 @@
+/* professionals Dentist */
+
+body {
+	font: normal 12px "lucida sans unicode", "lucida sans", verdana, arial;
+	color: #666666;
+	margin: 0px;
+	padding: 0px;
+	background: #d8cec7;
+}
+
+/*
+ * Container surrounding all content on the page
+ */
+ 
+.fw-container {
+	margin: 0px;
+	padding: 20px 20px 20px 20px;
+	border: 0 ;
+	width: auto;
+}
+
+a,
+a:visited {
+	color: #a67858;
+
+}
+
+
+a:hover,
+a:visited:hover {
+	color: #a67858;
+	text-decoration: none;
+	border-bottom: dotted 0px #a67858;
+
+}
+
+code,pre {
+	font-size:12px
+}
+
+fieldset {
+	margin:1em 0;
+	padding:1em;
+	border:0px solid #ccc
+}
+
+legend {
+	color:#000;
+	font-weight:bold;
+}
+
+label {
+	cursor:pointer
+}
+
+/*
+ * This can be used to decorate around any advertisements that appear on the page (non-premium users only)
+ * It is STRICTLY forbidden to modify this code as to obstruct the view of the advertisement
+ */
+.fw-advertisement,
+#fw-advertisement {
+	margin: 0;
+	padding: 10px;
+	border: 0;
+	text-align: center;
+
+}
+
+.fw-rightcol {
+	width: 194px;
+	float: left;
+}
+
+/*
+ * Container surrounding Site Title, Small Title, Logo, and home-link
+ */
+.fw-head {
+	margin: 0px;
+	border: 0px;
+	background: #ffffff;
+}
+
+/*
+ * Site Title
+ */
+.fw-head h1 {
+	font: bold 16px "Arial";
+	letter-spacing: 0px;
+	color: #cf363b; 
+	margin: 0px 0px 0px 0px;
+	background: #fff;
+	padding: 20px 20px 3px 20px;
+	border-top: solid 1px #c2b9b3;
+	border-right: solid 3px #c2b9b3;
+	border-bottom: 0;
+	border-left: solid 1px #c2b9b3;
+}
+
+/*
+ * Site Small Title
+ */
+.fw-head h3 {
+	font: bold 12px "lucida sans";
+	color: #d09c77; 
+	margin: 0px 0px 54px 0px;
+	background: #fff;
+	padding: 3px 20px 20px 20px;
+	text-transform: uppercase;
+	border-top: 0;
+	border-right: solid 3px #c2b9b3;
+	border-bottom: solid 3px #c2b9b3;
+	border-left: solid 1px #c2b9b3;
+}
+
+.fw-logo {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	font-size: 0px;
+	position: relative;
+	left: 21px;
+	top: -23px;
+}
+
+
+.fw-home-link {
+	width:0px;
+	height:0px;
+	display:none;
+	clear:both
+}
+
+hr {
+	display:none;
+}
+
+/*
+ * NavBar
+ * UL containing all the NavBar links
+ */
+ 
+.fw-nav-menu {
+	padding: 20px;
+	margin: 10px 0px 0px 0px;
+	color: ;
+	text-align: left;
+	background: #fff;
+	border-top: solid 1px #c2b9b3;
+	border-right: solid 3px #c2b9b3;
+	border-bottom: solid 3px #c2b9b3;
+	border-left: solid 1px #c2b9b3;
+}
+
+.fw-nav-menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: left;
+	cursor: default;
+	border-top: solid 1px #e1e0e0 ; 
+}
+
+/*
+ * Individual NavBar LI's
+ */
+ 
+.fw-nav-menu li {
+	margin: 0px;
+	padding: 0px;
+	border-bottom: solid 1px #e1e0e0 ; 
+}
+
+/*
+ * Individual NavBar links
+ */
+.fw-nav-menu a,
+.fw-nav-menu a:visited {
+	margin: 0px;
+	padding: 2px 0px 2px 0px;
+	display: block;
+	width: 100%;
+} 
+
+
+.fw-nav-menu a:hover,
+.fw-nav-menu a:visited:hover {
+	color: #000;
+	border: 0;
+	background-color: #f4f4f4 ;
+}
+
+/*
+ * This is the container that holds the main content (paragraphs) of the page.
+ */
+.fw-with-mini {
+	width: 60% !important;
+	width: auto;
+	margin: 0px 0px 0px 10px;
+	padding: 20px 20px 20px 20px;
+	text-align: left;
+	float: left;
+	background: #fff;
+	border-top: solid 1px #c2b9b3;
+	border-right: solid 3px #c2b9b3;
+	border-bottom: solid 3px #c2b9b3;
+	border-left: solid 1px #c2b9b3;
+	overflow: hidden;
+	display: inline;
+}
+
+/*
+ * The fw-no-mini class is applied to the fw-content DIV
+ *     when there are no mini-paragraphs on the page.
+ * This statement must remain in the css even if there are mini paragraphs.
+ * If there are mini paragraphs on the page, this will be ignored.
+ */
+.fw-content {
+}
+
+.fw-content h2 {
+	font: bold 18px "lucida sans";
+	letter-spacing: -1px;
+	color: #cf363b; 
+	margin: 0px;
+	padding: 0px 0px 10px 23px;
+	background: transparent url('http://images.freewebs.com/Members/Generationz/CSSStyles/Professionals/Dentist/bg-h2.gif') no-repeat top left;
+}
+
+h2 a {
+	padding: 0px;
+}
+
+.fw-paragraph {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+	clear: both;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.fw-text {
+	margin: 0px;
+	padding: 0px 20px 15px 0px;
+	width: auto !important;
+	width: 95%;
+	border-bottom: solid 1px #e1e0e0;
+	overflow: hidden;
+}
+
+.fw-content ul,.fw-content ol,.fw-content dd {
+	margin-left:2em;
+}
+
+.fw-mini-pars {
+	float:right;
+	width:30%;
+}
+
+.fw-mini-pars dt {
+	color:#000;
+	font-weight:bold;
+	margin-top:1em;
+	border-bottom:.3em solid #EEE;
+}
+
+.fw-mini-pars dd {
+	margin-top:.2em;
+	color:#333;
+}
+
+.fw-footer {
+	font-size: 10px;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 0px 30px;
+	color: #999;
+	text-align: left;
+	clear: both;
+
+}
+
+.fw-footer p {
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+
+.fw-tracker {
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 0px 30px;
+	font-size: 10px;
+	color: #999;
+	text-align: left;
+	clear: both;
+
+}
+
+/* forms */
+
+label,button,input[type="submit"] {
+	cursor:pointer;
+}
+
+input,textarea {
+	padding:.1em;
+
+}
+
+textarea {
+	font:1em verdana,arial,sans-serif;
+}
+
+.formSpan {
+	display:block;
+	margin:1em 0 0
+}
+
+/* The following styles are for the blog.
+* Remember, if a CSS property is already defined in blog.css,
+* you must use the !important rule.
+*/
+
+/* 
+* blog entry container 
+*/
+.fwBlogEntryDisplay {
+	border-bottom: solid 1px #e1e0e0 !important; 
+	margin: 0px !important;
+	margin-bottom: 20px !important;
+	padding: 10px 0px 0px 0px !important;
+}
+
+/* 
+* blog entry title
+*/
+.fwBlogEntryTitle {
+	font: bold 18px "lucida sans" !important;
+	letter-spacing: -1px !important;
+	color: #cf363b !important;
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 0px 23px !important;
+	background: transparent url('http://images.freewebs.com/Members/Generationz/CSSStyles/Professionals/Dentist/bg-h2.gif') no-repeat top left !important;
+}
+
+/* 
+* blog entry date
+*/
+.fwBlogEntryDate {
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 0px 23px !important;
+	color: #999999 !important;
+}
+
+.fwBlogEntryDate BR {
+	display: none;
+}
+
+/* 
+* blog entry body
+*/
+.fwBlogEntryBody {
+	padding: 0px 0px 10px 0px !important;
+	margin: 0px 0px 2px 0px !important;
+	border-bottom: solid 1px #e1e0e0 !important; 
+}
+
+
+/* 
+* blog comments
+*/
+.fwBlogCommentContainer{
+	padding: 10px !important;
+	margin: 10px 0px 0px 0px !important;
+	background-color: #f4f4f4 !important;
+	border: solid 1px #e1e0e0 !important;
+}
+
+/* Google ad colors */
+
+#googlecolors1 {
+background-color: #fff; /*bg*/
+color: #666666; /*text*/
+}
+#googlecolors1 a, #googlecolors1 a:visited {
+color: #cf363b; /*link*/
+}
+#googlecolors2 {
+background-color: #c2b9b3; /*border*/
+color: #cf363b; /*url*/
+}
